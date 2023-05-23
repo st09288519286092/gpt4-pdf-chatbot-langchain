@@ -5,3 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
+  - name: No action
+    before: echo "No action will be taken."
+    init: echo "No initialization tasks."
+    command: echo "No command tasks."
